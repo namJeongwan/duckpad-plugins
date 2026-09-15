@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "com.duckpad.clipboard-history",
+      "path": "plugins/com.duckpad.clipboard-history.json"
+    }
+  ]
+}

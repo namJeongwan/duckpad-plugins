@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "com.duckpad.clipboard-history",
+  "name": "Clipboard History",
+  "description": {
+    "en": "Search, pin, and paste clipboard history in Duckpad.",
+    "ko": "Duckpad에서 클립보드 기록을 검색하고 고정하고 붙여넣습니다."
+  },
+  "repository": "https://github.com/namJeongwan/duckpad-plugin-clipboard-history",
+  "publisher": {
+    "id": "com.duckpad",
+    "keys": [
+      {
+        "id": "clipboard-release-1",
+        "publicKey": "WlOI4aUUE1yhCuLzGBpcklFSUDTxp+Smn07d2RQ2idE="
+      }
+    ]
+  },
+  "releases": [
+    {
+      "version": "0.2.1",
+      "api": {
+        "minimum": "1.3.0",
+        "maximumExclusive": "2.0.0"
+      },
+      "url": "https://github.com/namJeongwan/duckpad-plugin-clipboard-history/releases/download/v0.2.1/clipboard-history-0.2.1-universal.zip",
+      "sha256": "d85e9cc2b3e006fb35dc45bdc9d11ef908726eddc1f99e17f478f2d86fe39161",
+      "keyID": "clipboard-release-1"
+    }
+  ]
+}
