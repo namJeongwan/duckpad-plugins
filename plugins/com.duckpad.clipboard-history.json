@@ -26,6 +26,16 @@
       "url": "https://github.com/namJeongwan/duckpad-plugin-clipboard-history/releases/download/v0.2.1/clipboard-history-0.2.1-universal.zip",
       "sha256": "d85e9cc2b3e006fb35dc45bdc9d11ef908726eddc1f99e17f478f2d86fe39161",
       "keyID": "clipboard-release-1"
+    },
+    {
+      "version": "0.3.2",
+      "api": {
+        "minimum": "1.3.0",
+        "maximumExclusive": "2.0.0"
+      },
+      "url": "https://github.com/namJeongwan/duckpad-plugin-clipboard-history/releases/download/v0.3.2/clipboard-history-0.3.2-universal.zip",
+      "sha256": "671d2023f26552aebba033aa16b2994155d19f3c7ea7f59322ee1059061023db",
+      "keyID": "clipboard-release-1"
     }
   ]
 }
