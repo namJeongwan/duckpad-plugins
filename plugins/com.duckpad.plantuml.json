@@ -18,6 +18,16 @@
   },
   "releases": [
     {
+      "version": "0.1.1",
+      "api": {
+        "minimum": "1.4.0",
+        "maximumExclusive": "2.0.0"
+      },
+      "url": "https://github.com/namJeongwan/duckpad-plugin-plantuml/releases/download/v0.1.1/Duckpad-PlantUML-0.1.1-universal.zip",
+      "sha256": "084d618c3a43feb29097df96f36ec13ef22cbd5401c44f9510c0ad71bf58a58d",
+      "keyID": "clipboard-release-1"
+    },
+    {
       "version": "0.1.0",
       "api": {
         "minimum": "1.4.0",
