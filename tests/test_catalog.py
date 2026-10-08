@@ -31,14 +31,14 @@ class CatalogTests(unittest.TestCase):
         self.entry['schemaVersion'] = 99
         with self.assertRaises(ValueError): module.validate(self.entry)
     def test_catalog_files_match_identities(self):
-        self.assertEqual(module.validate_catalog(ROOT/'plugins'), {'com.duckpad.clipboard-history'})
+        self.assertEqual(module.validate_catalog(ROOT/'plugins'), {'com.duckpad.clipboard-history', 'com.duckpad.plantuml'})
 
     def test_index_matches_all_catalogs(self):
-        self.assertEqual(module.validate_repository(ROOT), {'com.duckpad.clipboard-history'})
+        self.assertEqual(module.validate_repository(ROOT), {'com.duckpad.clipboard-history', 'com.duckpad.plantuml'})
 
     def test_index_rejects_missing_extra_duplicate_and_unsafe_paths(self):
         index = json.loads((ROOT / 'index.json').read_text())
-        expected = {'com.duckpad.clipboard-history'}
+        expected = {'com.duckpad.clipboard-history', 'com.duckpad.plantuml'}
         for path in ['../plugin.json', 'https://example.com/plugin.json', 'plugins/wrong.json', 'plugins/%2e%2e/plugin.json']:
             bad = copy.deepcopy(index); bad['plugins'][0]['path'] = path
             with self.assertRaises(ValueError): module.validate_index(bad, expected)

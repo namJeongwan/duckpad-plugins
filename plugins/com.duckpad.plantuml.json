@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "com.duckpad.plantuml",
+  "name": "PlantUML",
+  "description": {
+    "en": "Local PlantUML previews with PNG/SVG export and offline Java runtime settings.",
+    "ko": "로컬 PlantUML 미리보기, PNG/SVG 내보내기와 오프라인 Java 런타임 설정을 제공합니다."
+  },
+  "repository": "https://github.com/namJeongwan/duckpad-plugin-plantuml",
+  "publisher": {
+    "id": "com.duckpad",
+    "keys": [
+      {
+        "id": "clipboard-release-1",
+        "publicKey": "WlOI4aUUE1yhCuLzGBpcklFSUDTxp+Smn07d2RQ2idE="
+      }
+    ]
+  },
+  "releases": [
+    {
+      "version": "0.1.0",
+      "api": {
+        "minimum": "1.4.0",
+        "maximumExclusive": "2.0.0"
+      },
+      "url": "https://github.com/namJeongwan/duckpad-plugin-plantuml/releases/download/v0.1.0/Duckpad-PlantUML-0.1.0-universal.zip",
+      "sha256": "8e3d0252af7e48f463fc1850651629ec7488d14f2476822e5e5c2dc60b888a4d",
+      "keyID": "clipboard-release-1"
+    }
+  ]
+}

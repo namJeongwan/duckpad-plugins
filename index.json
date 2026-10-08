@@ -4,6 +4,10 @@
     {
       "id": "com.duckpad.clipboard-history",
       "path": "plugins/com.duckpad.clipboard-history.json"
+    },
+    {
+      "id": "com.duckpad.plantuml",
+      "path": "plugins/com.duckpad.plantuml.json"
     }
   ]
 }
