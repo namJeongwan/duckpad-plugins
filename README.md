@@ -4,6 +4,7 @@ The plugin catalog for Duckpad. Plugin source code and release assets live in ea
 
 - App and host API: https://github.com/namJeongwan/duckpad
 - Clipboard History: https://github.com/namJeongwan/duckpad-plugin-clipboard-history
+- PlantUML: https://github.com/namJeongwan/duckpad-plugin-plantuml (Duckpad 0.10.0 / host API 1.4.0 or later)
 
 Each `plugins/<plugin-id>.json` records identity, source repository, descriptions, publisher public keys, and immutable releases. A release records its version, supported host API range, package URL, SHA-256, and signing key ID. Plugin versions are independent of Duckpad versions.
 
