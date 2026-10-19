@@ -10,6 +10,14 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 class CatalogTests(unittest.TestCase):
+    def test_descriptions_require_all_supported_languages(self):
+        for language in ('en', 'ko', 'ja', 'zh-Hans', 'de', 'fr', 'it', 'pt-BR'):
+            with self.subTest(language=language):
+                incomplete = copy.deepcopy(self.entry)
+                del incomplete['description'][language]
+                with self.assertRaises(ValueError):
+                    module.validate(incomplete)
+
     def setUp(self):
         self.entry = json.loads((ROOT / 'plugins/com.duckpad.clipboard-history.json').read_text())
     def test_draft_is_valid_and_not_installable(self):
