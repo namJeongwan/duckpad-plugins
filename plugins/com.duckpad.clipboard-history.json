@@ -4,7 +4,13 @@
   "name": "Clipboard History",
   "description": {
     "en": "Search, pin, and paste clipboard history in Duckpad.",
-    "ko": "Duckpad에서 클립보드 기록을 검색하고 고정하고 붙여넣습니다."
+    "ko": "Duckpad에서 클립보드 기록을 검색하고 고정하고 붙여넣습니다.",
+    "ja": "クリップボード履歴をローカルに保存し、検索、ピン留め、順次貼り付けができます。",
+    "zh-Hans": "在本地保存剪贴板历史，支持搜索、置顶和依次粘贴。",
+    "de": "Lokaler Zwischenablageverlauf mit Suche, angehefteten Einträgen und schrittweisem Einfügen.",
+    "fr": "Historique local du presse-papiers avec recherche, éléments épinglés et collage successif.",
+    "it": "Cronologia locale degli appunti con ricerca, elementi fissati e incolla in sequenza.",
+    "pt-BR": "Histórico local da área de transferência com busca, itens fixados e colagem em sequência."
   },
   "repository": "https://github.com/namJeongwan/duckpad-plugin-clipboard-history",
   "publisher": {

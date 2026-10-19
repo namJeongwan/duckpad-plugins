@@ -4,7 +4,13 @@
   "name": "PlantUML",
   "description": {
     "en": "Local PlantUML previews with PNG/SVG export and offline Java runtime settings.",
-    "ko": "로컬 PlantUML 미리보기, PNG/SVG 내보내기와 오프라인 Java 런타임 설정을 제공합니다."
+    "ko": "로컬 PlantUML 미리보기, PNG/SVG 내보내기와 오프라인 Java 런타임 설정을 제공합니다.",
+    "ja": "ローカルでのPlantUMLプレビュー、PNG/SVG書き出し、オフラインJavaランタイムの設定を提供します。",
+    "zh-Hans": "提供本地 PlantUML 预览、PNG/SVG 导出和离线 Java 运行时设置。",
+    "de": "Lokale PlantUML-Vorschau mit PNG/SVG-Export und Einstellungen für eine lokale Java-Laufzeitumgebung.",
+    "fr": "Aperçu PlantUML local avec export PNG/SVG et réglages du moteur Java hors ligne.",
+    "it": "Anteprime PlantUML locali con esportazione PNG/SVG e impostazioni del runtime Java offline.",
+    "pt-BR": "Prévias locais do PlantUML com exportação PNG/SVG e configurações do ambiente Java offline."
   },
   "repository": "https://github.com/namJeongwan/duckpad-plugin-plantuml",
   "publisher": {

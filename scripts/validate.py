@@ -19,8 +19,8 @@ def validate(entry):
         raise ValueError('invalid catalog value')
     if not (isinstance(entry['name'], str) and entry['name'].strip()):
         raise ValueError('invalid catalog value')
-    if not set(entry['description']) >= {'en', 'ko'}:
-        raise ValueError('invalid catalog value')
+    if not set(entry['description']) >= {'en', 'ko', 'ja', 'zh-Hans', 'de', 'fr', 'it', 'pt-BR'}:
+        raise ValueError('plugin descriptions must cover all eight Duckpad languages')
     if not all((isinstance(v, str) and v.strip() for v in entry['description'].values())):
         raise ValueError('invalid catalog value')
     repository = entry['repository']

@@ -8,6 +8,10 @@ The plugin catalog for Duckpad. Plugin source code and release assets live in ea
 
 Each `plugins/<plugin-id>.json` records identity, source repository, descriptions, publisher public keys, and immutable releases. A release records its version, supported host API range, package URL, SHA-256, and signing key ID. Plugin versions are independent of Duckpad versions.
 
+Descriptions must cover every supported Duckpad language: `en`, `ko`, `ja`,
+`zh-Hans`, `de`, `fr`, `it`, and `pt-BR`. Catalog validation rejects missing
+translations independently of the plugin's own interface resources.
+
 Run `python3 -m unittest discover -s tests` and `python3 scripts/validate.py` before submitting a catalog PR. Draft entries have no releases and must not appear as installable plugins. Never put signing private keys or plugin implementation code here.
 
 Publishing order: build and sign in the plugin repository, publish immutable release assets, then submit a catalog PR with the exact download URL and digest. Correct a bad release by adding a new version, never by replacing its bytes.
