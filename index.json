@@ -8,6 +8,18 @@
     {
       "id": "com.duckpad.plantuml",
       "path": "plugins/com.duckpad.plantuml.json"
+    },
+    {
+      "id": "com.duckpad.python",
+      "path": "plugins/com.duckpad.python.json"
+    },
+    {
+      "id": "com.duckpad.ruby",
+      "path": "plugins/com.duckpad.ruby.json"
+    },
+    {
+      "id": "com.duckpad.rust",
+      "path": "plugins/com.duckpad.rust.json"
     }
   ]
 }

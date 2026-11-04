@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "com.duckpad.python",
+  "name": "Python",
+  "description": {
+    "en": "Python completion with external language servers and independent workspace settings.",
+    "ko": "외부 언어 서버와 워크스페이스별 독립 설정을 사용하는 Python 자동완성입니다.",
+    "ja": "外部言語サーバーとワークスペースごとの独立した設定によるPython補完です。",
+    "zh-Hans": "使用外部语言服务器和独立工作区设置的 Python 自动补全。",
+    "de": "Python-Vervollständigung mit externen Sprachservern und unabhängigen Arbeitsbereichseinstellungen.",
+    "fr": "Complétion Python avec des serveurs de langage externes et des réglages propres à chaque espace de travail.",
+    "it": "Completamento Python con server di linguaggio esterni e impostazioni indipendenti per ogni area di lavoro.",
+    "pt-BR": "Preenchimento de código Python com servidores de linguagem externos e configurações independentes por espaço de trabalho."
+  },
+  "repository": "https://github.com/namJeongwan/duckpad-plugin-python",
+  "publisher": {
+    "id": "com.duckpad",
+    "keys": [
+      {
+        "id": "language-support-preview-1",
+        "publicKey": "1c3TZsMGKdC5Z7mpLclefJsbyTYczC19l1F+rvwtP6k="
+      }
+    ]
+  },
+  "releases": [
+    {
+      "version": "0.1.0",
+      "api": {
+        "minimum": "1.5.0",
+        "maximumExclusive": "2.0.0"
+      },
+      "url": "https://github.com/namJeongwan/duckpad-plugin-python/releases/download/v0.1.0/Duckpad-Python-0.1.0.zip",
+      "sha256": "9de085df671f45798c1c4f42f941d6bc7a0c3bfb9a5762b2c7ef35e7ce5a71c3",
+      "keyID": "language-support-preview-1"
+    }
+  ]
+}
