@@ -6,6 +6,14 @@
       "path": "plugins/com.duckpad.clipboard-history.json"
     },
     {
+      "id": "com.duckpad.d2",
+      "path": "plugins/com.duckpad.d2.json"
+    },
+    {
+      "id": "com.duckpad.mermaid",
+      "path": "plugins/com.duckpad.mermaid.json"
+    },
+    {
       "id": "com.duckpad.plantuml",
       "path": "plugins/com.duckpad.plantuml.json"
     },

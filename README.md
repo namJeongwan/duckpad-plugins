@@ -4,6 +4,11 @@ The plugin catalog for Duckpad. Plugin source code and release assets live in ea
 
 - App and host API: https://github.com/namJeongwan/duckpad
 - Clipboard History: https://github.com/namJeongwan/duckpad-plugin-clipboard-history
+- D2: https://github.com/namJeongwan/duckpad-plugin-d2 (Duckpad 0.18.0 / host API 1.6.0+)
+- Mermaid: https://github.com/namJeongwan/duckpad-plugin-mermaid (host API 1.4.0+)
+- Python: https://github.com/namJeongwan/duckpad-plugin-python
+- Ruby/Rails: https://github.com/namJeongwan/duckpad-plugin-ruby
+- Rust: https://github.com/namJeongwan/duckpad-plugin-rust
 - PlantUML: https://github.com/namJeongwan/duckpad-plugin-plantuml (Duckpad 0.10.0 / host API 1.4.0 or later)
 
 Each `plugins/<plugin-id>.json` records identity, source repository, descriptions, publisher public keys, and immutable releases. A release records its version, supported host API range, package URL, SHA-256, and signing key ID. Plugin versions are independent of Duckpad versions.
@@ -43,6 +48,6 @@ python3 scripts/validate.py
 python3 -m unittest discover -s tests
 ```
 
-The generated index is deterministic and includes every catalog entry exactly once, including drafts. An entry with `releases: []` is discoverable metadata, not an installable release. Duckpad checks indexed installed plugins for compatible published updates. The index does not authorize publisher keys or replace package signature verification. A missing or invalid index is a failed catalog check, not proof that there are no updates. The all-plugins browsing/install screen is not implemented yet.
+The generated index is deterministic and includes every catalog entry exactly once, including drafts. An entry with `releases: []` is discoverable metadata, not an installable release. Duckpad checks indexed installed plugins for compatible published updates. The index does not authorize publisher keys or replace package signature verification. A missing or invalid index is a failed catalog check, not proof that there are no updates. Plugins Admin → Available Plugins lists compatible published releases and installs their verified packages.
 
 Publish the index and its per-plugin files together. `validate.py` rejects missing references, unknown entries, duplicate IDs, and paths other than `plugins/<id>.json`. The index supports up to 1,024 entries and a 1 MiB response.
