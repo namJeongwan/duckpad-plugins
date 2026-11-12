@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "com.duckpad.mermaid",
+  "name": "Mermaid",
+  "description": {
+    "en": "Local Mermaid diagram previews with PNG/SVG export.",
+    "ko": "PNG/SVG 내보내기를 지원하는 로컬 Mermaid 다이어그램 미리보기입니다.",
+    "ja": "PNG/SVG書き出しに対応したローカルのMermaidダイアグラムプレビューです。",
+    "zh-Hans": "本地 Mermaid 图表预览，支持 PNG/SVG 导出。",
+    "de": "Lokale Mermaid-Diagrammvorschau mit PNG/SVG-Export.",
+    "fr": "Aperçu local de diagrammes Mermaid avec export PNG/SVG.",
+    "it": "Anteprima locale di diagrammi Mermaid con esportazione PNG/SVG.",
+    "pt-BR": "Prévia local de diagramas Mermaid com exportação PNG/SVG."
+  },
+  "repository": "https://github.com/namJeongwan/duckpad-plugin-mermaid",
+  "publisher": {
+    "id": "com.duckpad",
+    "keys": [
+      {
+        "id": "clipboard-release-1",
+        "publicKey": "WlOI4aUUE1yhCuLzGBpcklFSUDTxp+Smn07d2RQ2idE="
+      }
+    ]
+  },
+  "releases": [
+    {
+      "version": "0.1.0",
+      "api": {
+        "minimum": "1.4.0",
+        "maximumExclusive": "2.0.0"
+      },
+      "url": "https://github.com/namJeongwan/duckpad-plugin-mermaid/releases/download/v0.1.0/Duckpad-Mermaid-0.1.0-universal.zip",
+      "sha256": "5fe585f4c62ef376ebe8e5504fa12ecfa03177f4bded573e38e2dea183833367",
+      "keyID": "clipboard-release-1"
+    }
+  ]
+}

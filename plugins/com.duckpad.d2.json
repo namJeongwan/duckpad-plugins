@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "com.duckpad.d2",
+  "name": "D2",
+  "description": {
+    "en": "Local D2 diagram previews with PNG/SVG export.",
+    "ko": "PNG/SVG 내보내기를 지원하는 로컬 D2 다이어그램 미리보기입니다.",
+    "ja": "PNG/SVG書き出しに対応したローカルのD2ダイアグラムプレビューです。",
+    "zh-Hans": "本地 D2 图表预览，支持 PNG/SVG 导出。",
+    "de": "Lokale D2-Diagrammvorschau mit PNG/SVG-Export.",
+    "fr": "Aperçu local de diagrammes D2 avec export PNG/SVG.",
+    "it": "Anteprima locale di diagrammi D2 con esportazione PNG/SVG.",
+    "pt-BR": "Prévia local de diagramas D2 com exportação PNG/SVG."
+  },
+  "repository": "https://github.com/namJeongwan/duckpad-plugin-d2",
+  "publisher": {
+    "id": "com.duckpad",
+    "keys": [
+      {
+        "id": "clipboard-release-1",
+        "publicKey": "WlOI4aUUE1yhCuLzGBpcklFSUDTxp+Smn07d2RQ2idE="
+      }
+    ]
+  },
+  "releases": [
+    {
+      "version": "0.1.0",
+      "api": {
+        "minimum": "1.6.0",
+        "maximumExclusive": "2.0.0"
+      },
+      "url": "https://github.com/namJeongwan/duckpad-plugin-d2/releases/download/v0.1.0/Duckpad-D2-0.1.0-universal.zip",
+      "sha256": "4a054348ed487b07b893fecae28b82882c3cd01694d37c6ec2ffc06fde2d3253",
+      "keyID": "clipboard-release-1"
+    }
+  ]
+}
